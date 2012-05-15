@@ -11,24 +11,43 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int 0=0x7f020000;
-        public static final int 1=0x7f020001;
-        public static final int 2=0x7f020002;
-        public static final int 3=0x7f020003;
-        public static final int 4=0x7f020004;
-        public static final int 5=0x7f020005;
-        public static final int 6=0x7f020006;
-        public static final int 7=0x7f020007;
-        public static final int 8=0x7f020008;
-        public static final int 9=0x7f020009;
-        public static final int back=0x7f02000a;
-        public static final int call=0x7f02000b;
-        public static final int call2=0x7f02000c;
-        public static final int contact=0x7f02000d;
-        public static final int dash=0x7f02000e;
-        public static final int ic_launcher=0x7f02000f;
-        public static final int r1=0x7f020010;
-        public static final int r2=0x7f020011;
+        public static final int back=0x7f020000;
+        public static final int call=0x7f020001;
+        public static final int call2=0x7f020002;
+        public static final int contact=0x7f020003;
+        public static final int dash=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int num0=0x7f020006;
+        public static final int num1=0x7f020007;
+        public static final int num2=0x7f020008;
+        public static final int num3=0x7f020009;
+        public static final int num4=0x7f02000a;
+        public static final int num5=0x7f02000b;
+        public static final int num6=0x7f02000c;
+        public static final int num7=0x7f02000d;
+        public static final int num8=0x7f02000e;
+        public static final int num9=0x7f02000f;
+        public static final int numbers=0x7f020010;
+        public static final int r1=0x7f020011;
+        public static final int r2=0x7f020012;
+        public static final int star=0x7f020013;
+    }
+    public static final class id {
+        public static final int button0=0x7f05000a;
+        public static final int button1=0x7f050000;
+        public static final int button2=0x7f050001;
+        public static final int button3=0x7f050002;
+        public static final int button4=0x7f050003;
+        public static final int button5=0x7f050004;
+        public static final int button6=0x7f050005;
+        public static final int button7=0x7f050006;
+        public static final int button8=0x7f050007;
+        public static final int button9=0x7f050008;
+        public static final int button_back=0x7f05000e;
+        public static final int button_call=0x7f05000d;
+        public static final int button_contact=0x7f05000c;
+        public static final int button_dash=0x7f05000b;
+        public static final int button_star=0x7f050009;
     }
     public static final class layout {
         public static final int dtmf=0x7f030000;
