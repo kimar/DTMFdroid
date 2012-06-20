@@ -1,22 +1,3 @@
-/**
- * Copyright (C) 2011, Mir Mustafa Ali (mustafa01ali@gmail.com)
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- * 
- */
-
 package net.indiecoder.DTMFdroid;
 
 import android.app.Activity;
@@ -33,11 +14,6 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 
-/**
- * Dialpad Activity
- * 
- * @author mustafa.ali (mustafa01ali@gmail.com)
- */
 public class DTMFActivity extends Activity implements View.OnClickListener,
         View.OnLongClickListener {
 
@@ -74,18 +50,12 @@ public class DTMFActivity extends Activity implements View.OnClickListener,
         initUI();
     }
 
-    /**
-     * Initializes the UI components
-     */
     private void initUI() {
         initializeViews();
         addNumberFormatting();
         setClickListeners();
     }
 
-    /**
-     * Initializes the views from XML
-     */
     private void initializeViews() {
         mPhoneNumberField = (EditText) findViewById(R.id.phone_number);
         mPhoneNumberField.setInputType(android.text.InputType.TYPE_NULL);
@@ -143,9 +113,6 @@ public class DTMFActivity extends Activity implements View.OnClickListener,
         mPhoneNumberField.onKeyDown(keyCode, event);
     }
 
-    /**
-     * Click handler for the views
-     */
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -210,9 +177,6 @@ public class DTMFActivity extends Activity implements View.OnClickListener,
 
     }
 
-    /**
-     * Long Click Listener
-     */
     @Override
     public boolean onLongClick(View view) {
         switch (view.getId()) {
@@ -229,9 +193,6 @@ public class DTMFActivity extends Activity implements View.OnClickListener,
         return false;
     }
 
-    /**
-     * Starts the native phone call activity
-     */
     private void dialNumber() {
         String number = mPhoneNumberField.getText().toString();
         if (number.length() > 0) {
