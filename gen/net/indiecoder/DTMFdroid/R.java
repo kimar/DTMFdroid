@@ -11,30 +11,27 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int back=0x7f020000;
-        public static final int call=0x7f020001;
-        public static final int call2=0x7f020002;
-        public static final int contact=0x7f020003;
-        public static final int dash=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int num0=0x7f020006;
-        public static final int num1=0x7f020007;
-        public static final int num2=0x7f020008;
-        public static final int num3=0x7f020009;
-        public static final int num4=0x7f02000a;
-        public static final int num5=0x7f02000b;
-        public static final int num6=0x7f02000c;
-        public static final int num7=0x7f02000d;
-        public static final int num8=0x7f02000e;
-        public static final int num9=0x7f02000f;
-        public static final int numbers=0x7f020010;
-        public static final int r1=0x7f020011;
-        public static final int r2=0x7f020012;
-        public static final int star=0x7f020013;
+        public static final int dial_num_0_no_plus_wht=0x7f020000;
+        public static final int dial_num_1_no_vm_wht=0x7f020001;
+        public static final int dial_num_2_wht=0x7f020002;
+        public static final int dial_num_3_wht=0x7f020003;
+        public static final int dial_num_4_wht=0x7f020004;
+        public static final int dial_num_5_wht=0x7f020005;
+        public static final int dial_num_6_wht=0x7f020006;
+        public static final int dial_num_7_wht=0x7f020007;
+        public static final int dial_num_8_wht=0x7f020008;
+        public static final int dial_num_9_wht=0x7f020009;
+        public static final int dial_num_pound_wht=0x7f02000a;
+        public static final int dial_num_star_wht=0x7f02000b;
+        public static final int ic_dial_action_call=0x7f02000c;
+        public static final int ic_dial_action_delete=0x7f02000d;
+        public static final int ic_launcher=0x7f02000e;
+        public static final int ic_see_contacts_holo_dark=0x7f02000f;
     }
     public static final class id {
         public static final int asterisk=0x7f05000e;
-        public static final int deleteButton=0x7f050013;
+        public static final int contactsButton=0x7f050013;
+        public static final int deleteButton=0x7f050014;
         public static final int dialButton=0x7f050012;
         public static final int eight=0x7f05000b;
         public static final int five=0x7f050007;

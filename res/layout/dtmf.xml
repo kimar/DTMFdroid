@@ -13,51 +13,52 @@
 	<LinearLayout android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
 		android:layout_marginTop="10dip">
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/one" android:id="@+id/one"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/two" android:id="@+id/two"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/three" android:id="@+id/three"></Button>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_1_no_vm_wht" android:id="@+id/one"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_2_wht" android:id="@+id/two"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_3_wht" android:id="@+id/three"></ImageButton>
 	</LinearLayout>
 	<LinearLayout android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:id="@+id/linearLayout2"
 		android:layout_marginTop="10dip">
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/four" android:id="@+id/four"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/five" android:id="@+id/five"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/six" android:id="@+id/six"></Button>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_4_wht" android:id="@+id/four"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_5_wht" android:id="@+id/five"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_6_wht" android:id="@+id/six"></ImageButton>
 	</LinearLayout>
 	<LinearLayout android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:id="@+id/linearLayout3"
 		android:layout_marginTop="10dip">
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/seven" android:id="@+id/seven"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/eight" android:id="@+id/eight"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/nine" android:id="@+id/nine"></Button>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_7_wht" android:id="@+id/seven"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_8_wht" android:id="@+id/eight"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_9_wht" android:id="@+id/nine"></ImageButton>
 	</LinearLayout>
 	<LinearLayout android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:id="@+id/linearLayout4"
 		android:layout_marginTop="10dip">
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/asterisk"
-			android:id="@+id/asterisk"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/zero" android:id="@+id/zero"></Button>
-		<Button android:layout_weight="1" android:layout_height="wrap_content"
-			android:layout_width="0dp" android:text="@string/hash" android:id="@+id/hash"></Button>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_star_wht" android:id="@+id/asterisk"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_0_no_plus_wht" android:id="@+id/zero"></ImageButton>
+		<ImageButton android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="0dp" android:background="@drawable/dial_num_pound_wht" android:id="@+id/hash"></ImageButton>
 	</LinearLayout>
 	<LinearLayout android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:id="@+id/linearLayout5"
 		android:layout_gravity="center" android:gravity="center"
 		android:layout_marginTop="20dip">
-		<Button android:layout_height="wrap_content" android:text="@string/dial"
-			android:layout_weight="1" android:layout_width="0dp" android:id="@+id/dialButton"></Button>
-		<Button android:layout_height="wrap_content" android:text="@string/backspace"
-			android:layout_weight="1" android:layout_width="0dp" android:id="@+id/deleteButton"></Button>
+		<ImageButton android:layout_height="wrap_content" android:background="@drawable/ic_dial_action_call"
+			android:layout_weight="0" android:layout_width="50dp" android:id="@+id/dialButton"></ImageButton>
+				<ImageButton android:layout_height="wrap_content" android:background="@drawable/ic_see_contacts_holo_dark"
+			android:layout_weight="0" android:layout_width="50dp" android:id="@+id/contactsButton"></ImageButton>
+		<ImageButton android:layout_height="wrap_content" android:background="@drawable/ic_dial_action_delete"
+			android:layout_weight="0" android:layout_width="50dp" android:id="@+id/deleteButton"></ImageButton>
 	</LinearLayout>
 </LinearLayout>
