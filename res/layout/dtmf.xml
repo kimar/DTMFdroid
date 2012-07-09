@@ -55,10 +55,13 @@
 		android:layout_gravity="center" android:gravity="center"
 		android:layout_marginTop="20dip">
 		<ImageButton android:layout_height="wrap_content" android:background="@drawable/ic_dial_action_call"
-			android:layout_weight="0" android:layout_width="50dp" android:id="@+id/dialButton"></ImageButton>
-				<ImageButton android:layout_height="wrap_content" android:background="@drawable/ic_see_contacts_holo_dark"
-			android:layout_weight="0" android:layout_width="50dp" android:id="@+id/contactsButton"></ImageButton>
-		<ImageButton android:layout_height="wrap_content" android:background="@drawable/ic_dial_action_delete"
-			android:layout_weight="0" android:layout_width="50dp" android:id="@+id/deleteButton"></ImageButton>
+			android:layout_weight="0" android:layout_width="wrap_content" android:id="@+id/dialButton"
+			android:layout_marginLeft="10dp" ></ImageButton>
+		<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/ic_see_contacts_holo_dark"
+			android:layout_weight="0" android:id="@+id/contactsButton"
+			android:layout_marginLeft="90dp" ></ImageButton>
+		<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/ic_dial_action_delete"
+			android:layout_weight="0" android:id="@+id/deleteButton"
+			android:layout_marginLeft="100dp" ></ImageButton>
 	</LinearLayout>
 </LinearLayout>

@@ -243,6 +243,7 @@ public class DTMFActivity extends Activity implements View.OnClickListener,
 
     private void dialNumber() {
         String number = mPhoneNumberField.getText().toString();
+        number = number.replace(" ", "");
         if (number.length() > 0) {
         	try {
 				mDtmfGenerator.playDtmfSequence(number);
