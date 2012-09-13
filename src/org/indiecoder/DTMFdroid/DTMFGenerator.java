@@ -1,4 +1,4 @@
-package net.indiecoder.DTMFdroid;
+package org.indiecoder.DTMFdroid;
 
 import android.media.AudioManager;
 import android.media.ToneGenerator;

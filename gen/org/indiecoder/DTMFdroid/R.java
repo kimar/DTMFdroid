@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package net.indiecoder.DTMFdroid;
+package org.indiecoder.DTMFdroid;
 
 public final class R {
     public static final class attr {

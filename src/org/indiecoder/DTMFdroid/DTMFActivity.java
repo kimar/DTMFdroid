@@ -1,4 +1,4 @@
-package net.indiecoder.DTMFdroid;
+package org.indiecoder.DTMFdroid;
 
 import android.app.Activity;
 import android.content.Context;
